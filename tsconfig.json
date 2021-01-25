@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ESNEXT",
+    "sourceMap": true,
+    "lib": [
+      "es2017.object",
+      "es6",
+      "dom",
+      "es5",
+      "scripthost",
+      "es2015.collection"
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
