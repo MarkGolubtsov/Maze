@@ -47,7 +47,6 @@ const getExitPathFromMatrix = (exitPoint: Point, matrix: number[][]): Path => {
 };
 
 const getMatrixAfterWave = (start: Point, baseMatrix: number[][], exitsPoints: Point[]) => {
-
     const matrix = getMatrixCopy(baseMatrix);
 
     const width = matrix[0].length;

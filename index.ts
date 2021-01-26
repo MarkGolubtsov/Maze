@@ -17,13 +17,5 @@ const maze: Maze = [
 
 const START_POINT = {x: 0, y: 3};
 
-console.time("REC")
 const recExitPath = recursionWalkFunc(maze, START_POINT)
-console.timeEnd("REC")
-
-console.time("WAVE")
 const waveExitPath = waveWalkFunc(maze, START_POINT);
-console.timeEnd("WAVE")
-
-console.log('resRec', recExitPath);
-console.log('resWave', waveExitPath);

@@ -14,19 +14,22 @@ export const steps: Steps = {
             return {x, y: y - 1}
         }
     },
+
     [AVAILABLE_STEP.DOWN]: ({x, y}, width, height) => {
         if (y != height - 1) {
             return {x, y: y + 1}
         }
     },
+
     [AVAILABLE_STEP.LEFT]: ({x, y}) => {
         if (x != 0) {
             return {x: x - 1, y}
         }
     },
+
     [AVAILABLE_STEP.RIGHT]: ({x, y}, width) => {
         if (x != width - 1) {
             return {x: x + 1, y}
         }
-    }
+    },
 };
